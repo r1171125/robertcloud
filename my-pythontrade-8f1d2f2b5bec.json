@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "my-pythontrade",
+  "private_key_id": "8f1d2f2b5bec4b72447794c479e3f1ea10ed768a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5+hFsEU3+C0CB\nL5lrQ6by2bL7uRspiDlBZbxG/0TtQ/mYaJgXTlWGDJO7w5YTofpLwLGFODzIWjgm\nzU/YyfZvkEQ/XqiGa9c7UmTGJJi9QYl3GOKmju0VgBNjwELdTDbZ0VXHwfC1hRIh\nj38okqLm97tR+5QgJf5ZfuTQEMJtgJpLppwizRlXa+mZlLgvIhNfd4WWXjIi9dZo\nACVKLs4ywOYnQWeUhi6mwtofEhBlXBlYWm2Uv5PDR1KgbhPOukiycsCCn9dHTGsH\ntPFBcO0TmaL2GycKnFEkoCNfvv6vt5pRTAcfGppo0qsHlMxXWYPxOddS66fJ2+4X\nuFvYWwXnAgMBAAECggEAOedvRzt4EhIEynQ8i1YsA87eWFvA5kSAtyjq3xwZpNoW\nO2rNd+wu2qbN1JdIAeLb4HwliXoCCst0Ujh4lOIE9aVwal6ZkAjBobm8oKjCWaKv\nH0LDRuKXVKtk3hj9eJODPHxd/e0XehztkT9xcvt89vbI/vSaoQvTTqAgs9uT/a2V\ntlmh2SVUXg4HyhVd94qaVT51l43l8KXfIeNkDO8g7PC7J2t9gY1yDG9ev9LPksk4\ncRbmQN5+14+1OG04CmInsDl+n7g5Y9O3VOVFThs0afIZT/BPopXcvDq+DkJG1M+J\nsnU1kNmT5sr7vhFgwsxxGRnRtVbvMtzgo4r4UViDiQKBgQDokX8aj+yzWaqu3H7q\n2t8421tAwDOl+dTIQbwayRFgrks4tfVsBtSu/gEk02+glesIVyQzeZMoXPsiaOA8\nKpadYkq135hIQCJlsltTT9AXemwlPN8PHIR6l83Ejt2Jaq86+Ea5neXHXxgRzt7b\nOoG58AeHWH5Yv41WAg7QmBsWxQKBgQDMttzrAzxdxND6AAdCvDjkx9LQf3R8snwH\nVwznAf9IGsOv3+TOQxiEt3r4ykqVx4cbVrVJuo9yw2tUgr+7UUIkc7WWOGdIazRE\n1VLdXxXRm1qw33eKoFoqGtxnTz1BcPbG06VdFgZIMy6hFlIdrHQs8p6C0zAQs7bE\n8ZKPwEIUuwKBgCiLHM5jos8NZa0AMXv91gZSb1EVcKuRpx+WHhXJUac6G1Dyn6tK\ncY9kJozl80Laf9O/ZUc3/Yh+1SUFhXnXrtQXC5EzPpfx3k0+T59xfYRqSioft38p\n6Ip6pluK0GIhYBT2rVW0ihc8o7SPDNjJFU514socikIsepYw26ZPrgFFAoGBAKLe\nteLwfx2nUhAk56HruGQkqxAg51+ybUU1t9ku2JjYWmpZ+mM0NJSamebIoxCJX2+b\ny74uBKTs3z6si7iPTM1NleI/W8TdLge5pSTk2qoaLMxd7nDHZRTsrAAxpe2j32KO\nzpjBxhu5RNb6uDhNlVyRZxV0yl/va3FDNTTTZH+zAoGBAOZJ/h2EAzFdpOS5n5Wp\nVKfxajcJEJK5MQSWyrJMsWPui419HfGMpF2IjbDINAX2DzLRrvpndNUnykWPzYB3\nEDnWfjDBEKFXrutGj6mITU6xF5sqWu6KneYP9loSGwYmSR8yn2x/xciz6SU4nMm+\nJFs1BF+D6vIE0QY3Q0JBiLpi\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-object-viewer@my-pythontrade.iam.gserviceaccount.com",
+  "client_id": "112149439797476250803",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-object-viewer%40my-pythontrade.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
