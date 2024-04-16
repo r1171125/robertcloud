@@ -54,7 +54,7 @@ def etf_00733():
 
     # 執行回測
     r1 = backtest.sim(position,
-                      resample='M',  # 按季度調整持倉
+                      resample='Q',  # 按季度調整持倉
                       resample_offset='7D',  # 調倉日為每季度第7個工作日
                       position_limit=0.2,  # 單一股票持倉上限為20%
                       upload=False)
@@ -62,7 +62,7 @@ def etf_00733():
     from scipy.stats import ttest_ind
 
     # 计算超額報酬
-    excess_return = (r1.creturn.pct_change() - benchmark.pct_change() + 1).resample('D').prod() - 1
+    excess_return = (r1.creturn.pct_change() - benchmark.pct_change() + 1).resample('M').prod() - 1
     # 2017年之前的超額報酬
     e1 = excess_return.loc[:'2017']
     # 2019年之后的超額報酬
@@ -75,7 +75,7 @@ def etf_00733():
     # 選擇 00733 中，權重最大的五檔標的進行投資
     new_position = position.is_largest(5) * weight
 
-    results = backtest.sim(new_position, resample='M')
+    results = backtest.sim(new_position, resample='Q')
 
     return results
 
