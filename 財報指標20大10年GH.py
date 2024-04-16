@@ -50,7 +50,7 @@ def top20():
     # 打印结果
     print(results)
 
-    return report
+    return results
 
 
 if __name__ == "__main__":
