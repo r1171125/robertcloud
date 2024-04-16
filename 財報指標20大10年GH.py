@@ -45,7 +45,7 @@ def top20():
 
     # 执行回测
     results = sim(position=position, stop_loss=0.2, take_profit=0.8, position_limit=0.25, fee_ratio=1.425 / 1000 * 0.3,
-                  name="营收股价双涡轮")
+                  name="財報指標20大10年")
 
     # 打印结果
     print(results)
