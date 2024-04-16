@@ -54,7 +54,7 @@ def etf_00733():
 
     # 執行回測
     r1 = backtest.sim(position,
-                      resample='Q',  # 按季度調整持倉
+                      resample='M',  # 按季度調整持倉
                       resample_offset='7D',  # 調倉日為每季度第7個工作日
                       position_limit=0.2,  # 單一股票持倉上限為20%
                       upload=False)
@@ -75,7 +75,7 @@ def etf_00733():
     # 選擇 00733 中，權重最大的五檔標的進行投資
     new_position = position.is_largest(5) * weight
 
-    results = backtest.sim(new_position, resample='D')
+    results = backtest.sim(new_position, resample='M')
 
     return results
 
