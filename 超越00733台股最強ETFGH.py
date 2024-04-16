@@ -62,7 +62,7 @@ def etf_00733():
     from scipy.stats import ttest_ind
 
     # 计算超額報酬
-    excess_return = (r1.creturn.pct_change() - benchmark.pct_change() + 1).resample('M').prod() - 1
+    excess_return = (r1.creturn.pct_change() - benchmark.pct_change() + 1).resample('D').prod() - 1
     # 2017年之前的超額報酬
     e1 = excess_return.loc[:'2017']
     # 2019年之后的超額報酬
@@ -75,7 +75,7 @@ def etf_00733():
     # 選擇 00733 中，權重最大的五檔標的進行投資
     new_position = position.is_largest(5) * weight
 
-    results = backtest.sim(new_position, resample='Q')
+    results = backtest.sim(new_position, resample='D')
 
     return results
 
