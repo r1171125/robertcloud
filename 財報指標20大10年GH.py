@@ -1,4 +1,4 @@
-def protec():
+def top20():
     """
     這是一個受保護的函數,包含了您的關鍵代碼
     """
@@ -54,4 +54,4 @@ def protec():
 
 
 if __name__ == "__main__":
-    results = protec()
+    results = top20()
