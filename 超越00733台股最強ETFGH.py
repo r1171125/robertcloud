@@ -73,7 +73,7 @@ def etf_00733():
     p_value
 
     # 選擇 00733 中，權重最大的五檔標的進行投資
-    new_position = position.is_largest(5) * weight
+    new_position = position.is_largest(10) * weight
 
     results = backtest.sim(new_position, resample='Q')
 
